@@ -9,8 +9,9 @@ const ReactionSchema = new Schema(
     },
     reationBody: {
       type: String,
-      required: [true, "Must have valid text"],
+      required: true,
       maxlength: [280, "Cannot exceed 280 characters"],
+      trim: true,
     },
     username: {
       type: String,
