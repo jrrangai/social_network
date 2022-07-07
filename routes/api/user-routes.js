@@ -14,8 +14,8 @@ const {
 router.route("/").get(getAllUser).post(createUser);
 
 // set up GET one, PUT, and DELETE at /api/pizzas/:id
-router.route("/:userId").get(getUserById).put(updateUser).delete(deleteUser);
+router.route("/:id").get(getUserById).put(updateUser).delete(deleteUser);
 
-router.route("/:userId/friends/:friendId").post(addFriend).delete(removeFriend);
+router.route("/:id/friends/:friendId").post(addFriend).delete(removeFriend);
 
 module.exports = router;
