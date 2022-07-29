@@ -15,6 +15,6 @@
    </ul></details>
   
 <details><summary> Video to see how application works: </summary>
-  [INSERT VIDEO HERE]
+  https://drive.google.com/file/d/1u2-oRjHZeAjPJXeEm4c8pBosS400RLxZ/view
   </details>
  
